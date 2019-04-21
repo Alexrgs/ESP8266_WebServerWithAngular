@@ -9,7 +9,7 @@ ESP8266 AP mode serving a full Angular page
 1. Intall node To get Node.js, go to [nodejs.org](nodejs.org).
 1. Install Angular CLI ```npm install -g @angular/cli```
 1. Create a new angular app  ```ng new my-app```
-1. Build the app using ```ng build --base-href ./ --prod - --output-hashing none``` (it will remove the hash and change the base href to ./)
+1. Build the app using ```ng build --base-href ./ --prod - --output-hashing none``` (it will remove the hash and change the base href to ./) PS: it's nessessary due the SPIFFS limit of 32 bytes file names
 1. Install [7-Zip](https://www.7-zip.org/)
 1. Create a .bat file named compress.bat inside the app distribution folder
 1. Open the file and paste the folowing code: 
