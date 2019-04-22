@@ -28,5 +28,10 @@ pause
 1. run the conpress.bat it will compact the files individualy in the gzip format
 1. Now you have a compressed version of the app 
 
+## Putting everything together 
+1. Create a folder data inside the sketch folder 
+1. Copy the compresses app files to the data folder
+1. Upload the data to your ESP
+1. Upload your sketch to the ESP
 
 
